@@ -7,6 +7,7 @@ dotenv.config({
 })
 
 const config={
+    connectionString:process.env.POST_SQL,
     port:process.env.PORT
 }
 
