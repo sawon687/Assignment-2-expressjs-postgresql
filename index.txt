@@ -1,0 +1,19 @@
+req / resGET data 5/21/2026, 7:23:46 PM
+req / res GET data 5/21/2026, 7:24:01 PMreq 
+/ res GET data 5/21/2026, 7:32:33 PM
+req /api/auth/singup res POST data 5/21/2026, 7:32:56 PM
+req /api/auth/singup res POST data 5/21/2026, 7:33:44 PM
+req / res GET data 5/21/2026, 7:34:15 PMreq /api/auth/singup res POST data 5/21/2026, 7:35:52 PM
+req /api/auth/singup res POST data 5/21/2026, 7:36:55 PM
+req /api/auth/singup res POST data 5/21/2026, 7:42:54 PM
+req / res GET data 5/21/2026, 7:43:33 PM
+req / res GET data 5/21/2026, 7:43:47 PM
+req /api/auth/singup res POST data 5/21/2026, 7:46:52 PM
+req /api/auth/signup res POST data 5/21/2026, 7:50:46 PM
+req /api/auth/signup res POST data 5/21/2026, 8:07:25 PM
+req /api/auth/signup res POST data 5/21/2026, 8:10:37 PM
+req / res GET data 5/21/2026, 8:13:04 PM
+req / res GET data 5/21/2026, 8:13:57 PM
+req / res GET data 5/21/2026, 8:14:15 PM
+req / res GET data 5/21/2026, 8:15:43 PM
+req / res GET data 5/21/2026, 8:16:46 PMreq / res GET data 5/21/2026, 8:24:08 PMreq / res GET data 5/21/2026, 8:24:32 PMreq / res GET data 5/21/2026, 8:24:40 PMreq /favicon.ico res GET data 5/21/2026, 8:24:41 PMreq / res GET data 5/21/2026, 8:24:44 PMreq / res GET data 5/21/2026, 8:24:54 PMreq / res GET data 5/21/2026, 8:25:01 PMreq / res GET data 5/21/2026, 8:25:09 PMreq /api/auth/signup res POST data 5/21/2026, 8:25:20 PMreq /api/auth/signup res POST data 5/21/2026, 8:27:47 PMreq /api/auth/login res POST data 5/21/2026, 9:06:17 PMreq /api/auth/login res POST data 5/21/2026, 9:08:10 PMreq /api/auth/login res POST data 5/21/2026, 9:08:46 PMreq /api/auth/login res POST data 5/21/2026, 9:51:41 PMreq / res GET data 5/21/2026, 9:52:04 PMreq /api/auth/login res POST data 5/21/2026, 9:52:47 PMreq /api/auth/login res POST data 5/21/2026, 9:53:01 PMreq /api/auth/login res POST data 5/21/2026, 9:54:51 PMreq /api/auth/login res POST data 5/21/2026, 9:56:34 PMreq /api/auth/login res POST data 5/21/2026, 9:57:06 PMreq /api/auth/login res POST data 5/21/2026, 9:57:20 PMreq /api/auth/login res POST data 5/21/2026, 9:57:33 PMreq /api/auth/login res POST data 5/21/2026, 10:18:58 PMreq /api/auth/login res POST data 5/21/2026, 10:21:00 PMreq /api/auth/login res POST data 5/21/2026, 10:49:11 PMreq /api/auth/login res POST data 5/21/2026, 11:01:53 PM

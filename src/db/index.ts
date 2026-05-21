@@ -17,7 +17,7 @@ export const initDB = async () => {
                 role VARCHAR(20) NOT NULL DEFAULT 'contributor',
                 create_at TIMESTAMPTZ DEFAULT NOW(),
                 updatae_at TIMESTAMPTZ DEFAULT NOW() )
-            `,
+            `
     );
 
     await pool.query(`
