@@ -138,3 +138,107 @@ req / res GET data 5/21/2026, 8:16:46 PMreq / res GET data 5/21/2026, 8:24:08 PM
  req /api/issues res POST data 5/22/2026, 8:33:37 PM 
 
  req /api/issues res POST data 5/22/2026, 8:36:21 PM 
+
+ req /api/issues/14 res GET data 5/22/2026, 10:33:53 PM 
+
+ req /api/issues/14 res GET data 5/22/2026, 10:34:43 PM 
+
+ req /api/issues/14 res GET data 5/22/2026, 10:35:31 PM 
+
+ req /api/issues/14 res GET data 5/22/2026, 10:36:19 PM 
+
+ req /api/issues/6 res GET data 5/22/2026, 10:38:05 PM 
+
+ req /api/auth/signup res POST data 5/22/2026, 10:39:19 PM 
+
+ req /api/auth/login res POST data 5/22/2026, 10:41:12 PM 
+
+ req /api/issues/14 res GET data 5/22/2026, 10:41:52 PM 
+
+ req /api/issues res POST data 5/22/2026, 10:42:45 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:43:29 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:44:05 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:46:03 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:46:29 PM 
+
+ req /api/auth/login res POST data 5/22/2026, 10:48:56 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:50:07 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:50:23 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:50:47 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:52:39 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:53:00 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:54:01 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:55:28 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:55:50 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:56:30 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 10:57:37 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 11:00:25 PM 
+
+ req /api/issues/15 res GET data 5/22/2026, 11:02:40 PM 
+
+ req /api/issues res POST data 5/22/2026, 11:09:26 PM 
+
+ req /api/issues/1 res GET data 5/22/2026, 11:09:41 PM 
+
+ req /api/issues res POST data 5/22/2026, 11:10:45 PM 
+
+ req /api/issues res POST data 5/22/2026, 11:10:48 PM 
+
+ req /api/issues res POST data 5/22/2026, 11:10:49 PM 
+
+ req /api/issues/1 res DELETE data 5/22/2026, 11:16:58 PM 
+
+ req /api/issues/1 res DELETE data 5/22/2026, 11:17:01 PM 
+
+ req /api/issues/1 res DELETE data 5/22/2026, 11:17:38 PM 
+
+ req /api/issues/1 res DELETE data 5/22/2026, 11:20:43 PM 
+
+ req /api/issues/1 res DELETE data 5/22/2026, 11:21:18 PM 
+
+ req /api/issues/2 res DELETE data 5/22/2026, 11:21:26 PM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 1:51:08 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 1:52:00 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 1:53:19 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 1:54:37 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 1:56:05 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:00:43 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:00:51 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:04:11 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:04:33 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:06:47 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:07:26 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:09:36 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:09:56 AM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 2:10:26 AM 
+
+ req /api/issues?sort=newest?status=open res GET data 5/23/2026, 2:32:42 AM 

@@ -1,5 +1,5 @@
 export interface IApiResponse<T>{
-    message:string,
+    message?:string,
     status:number,
     data?:T,
     success:boolean,

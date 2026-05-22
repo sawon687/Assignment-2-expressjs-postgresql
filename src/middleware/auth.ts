@@ -15,11 +15,11 @@ export const auth=()=>{
 
   const decoded= tokenVerifay(token as string,'access') as JwtPayload
   const {email}=decoded 
-  console.log('decodded',decoded)
+
   const userData= await pool.query(`
       SELECT * FROM users WHERE email=$1
     `,[email])
-console.log('user',userData)
+
 
 if(userData.rows.length === 0)
 {

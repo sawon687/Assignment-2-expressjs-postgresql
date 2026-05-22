@@ -28,8 +28,8 @@ export const initDB = async () => {
                 type VARCHAR(20) NOT NULL,
                 status VARCHAR(20) NOT NULL DEFAULT 'open',
                 reporter_id INT NOT NULL REFERENCES users(id) ON DELETE CASCADE ,
-                create_at TIMESTAMPTZ DEFAULT NOW(),
-                updatae_at TIMESTAMPTZ DEFAULT NOW() )`)
+                created_at TIMESTAMPTZ DEFAULT NOW(),
+                updated_at TIMESTAMPTZ DEFAULT NOW() )`)
     console.log("Database connection is successfully");
   } catch (error) {
     console.log(error);

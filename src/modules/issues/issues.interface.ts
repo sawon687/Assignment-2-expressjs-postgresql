@@ -25,3 +25,9 @@ export interface IReIssues{
     updated_at:Date
   
 }
+
+export interface IssueQuery {
+  type?: string;
+  sort?: 'newest' | 'oldest';
+  status?: string;
+}
