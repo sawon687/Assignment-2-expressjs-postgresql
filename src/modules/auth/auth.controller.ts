@@ -3,12 +3,12 @@ import type { IReturnUser } from "./auth.interface";
 import { sendResponse } from "../../utils/sendResponse";
 import type { Request, Response } from "express";
 import authService from "./auth.service";
-import jwt from 'jsonwebtoken'
+import jwt from "jsonwebtoken";
 class AuthController {
   async signup(req: Request, res: Response) {
     console.log("data", req.body);
     const result = await AuthServices.createUser(req.body);
-    if (!result) {
+    if (result.rows.length===0) {
       return sendResponse(res, {
         message: "user not registered successfully ",
         success: false,
@@ -20,20 +20,25 @@ class AuthController {
       message: "User registered successfully",
       status: 201,
       success: true,
-      data: result,
+      data: result.rows[0],
     });
   }
 
   async login(req: Request, res: Response) {
     console.log("req body", req.body);
     const result = await authService.loginUser(req.body);
-    const {refershtoken}=result
-    sendResponse(res,{message:'Login successfully',status:200,success:true,data:result})
-    res.cookie('refreshtoken',refershtoken,{
-      httpOnly:false,
-      secure:false,
-      sameSite:"lax"
-    })
+    const { refershToken, ...userData} = result;
+    sendResponse(res, {
+      message: "Login successfully",
+      status: 200,
+      success: true,
+      data: userData,
+    });
+    res.cookie("refreshToken", refershToken, {
+      httpOnly: false,
+      secure: false,
+      sameSite: "lax",
+    });
   }
 }
 
