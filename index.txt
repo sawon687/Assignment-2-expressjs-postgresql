@@ -508,3 +508,105 @@ req / res GET data 5/21/2026, 8:16:46 PMreq / res GET data 5/21/2026, 8:24:08 PM
  req /api/issues/3 res PUT data 5/23/2026, 2:45:03 PM 
 
  req /api/issues/3 res PUT data 5/23/2026, 2:45:11 PM 
+
+ req /api/issues/4 res GET data 5/23/2026, 4:31:08 PM 
+
+ req /api/issues/4 res GET data 5/23/2026, 4:31:57 PM 
+
+ req /api/issues/4 res GET data 5/23/2026, 4:33:16 PM 
+
+ req /api/issues/6 res GET data 5/23/2026, 4:33:22 PM 
+
+ req /api/issues res GET data 5/23/2026, 4:34:11 PM 
+
+ req /api/issues/99 res GET data 5/23/2026, 4:34:35 PM 
+
+ req /api/issues?type=newest res GET data 5/23/2026, 4:36:55 PM 
+
+ req /api/issues?sort=newest res GET data 5/23/2026, 4:37:29 PM 
+
+ req /api/issues?sort=newest&type=feature_request res GET data 5/23/2026, 4:37:58 PM 
+
+ req /api/issues?sort=newest&type=feature_request&status=in-progress res GET data 5/23/2026, 4:38:18 PM 
+
+ req /api/issues?sort=newest&status=in-progress res GET data 5/23/2026, 4:38:32 PM 
+
+ req /api/issues?sort=newest&status=iin_progress res GET data 5/23/2026, 4:38:53 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:39:01 PM 
+
+ req /api/issues?sort=newest&status=in_progressh res GET data 5/23/2026, 4:40:53 PM 
+
+ req /api/issues?sort=newest&status=in_progresshhgjh res GET data 5/23/2026, 4:41:13 PM 
+
+ req /api/issues?sort=newest&status=in_progresshhgjh res GET data 5/23/2026, 4:41:31 PM 
+
+ req /api/issues?sort=newest&status=in_progresshhgjh res GET data 5/23/2026, 4:41:33 PM 
+
+ req /api/issues?sort=newest&status=in_progresshhgjh res GET data 5/23/2026, 4:41:56 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:42:11 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:42:41 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:42:43 PM 
+
+ req /api/issues?sort=newest&status=in_progresshjkh res GET data 5/23/2026, 4:42:49 PM 
+
+ req /api/issues?sort=newest&status=in_progresshjkh res GET data 5/23/2026, 4:43:22 PM 
+
+ req /api/issues?sort=newest&status=in_progressh res GET data 5/23/2026, 4:43:34 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:43:48 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:44:45 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:45:28 PM 
+
+ req /api/issues?sort=newest&status=in_progress] res GET data 5/23/2026, 4:45:30 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:45:34 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:45:34 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:46:24 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:46:33 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:46:53 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:48:50 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:48:57 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:48:58 PM 
+
+ req /api/issues res GET data 5/23/2026, 4:49:20 PM 
+
+ req /api/issues res GET data 5/23/2026, 4:51:17 PM 
+
+ req /api/issuesfh res GET data 5/23/2026, 4:51:22 PM 
+
+ req /api/issuesfh res GET data 5/23/2026, 4:51:53 PM 
+
+ req /api/issues?sort=newest&status=in_progress res GET data 5/23/2026, 4:52:35 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:52:44 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:53:49 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:54:20 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:59:14 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 4:59:34 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 5:03:14 PM 
+
+ req /api/issues?sort=newest&status=in_progress&type=feature_request res GET data 5/23/2026, 5:11:34 PM 
+
+ req /api/auth/login res POST data 5/23/2026, 5:19:11 PM 
+
+ req /api/auth/signup res POST data 5/23/2026, 5:21:27 PM 
+
+ req /api/auth/signup res POST data 5/23/2026, 5:22:39 PM 

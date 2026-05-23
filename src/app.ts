@@ -10,7 +10,7 @@ app.use(logger)
 
 app.use('/api/auth',authRoute)
 app.use('/api/issues',issuesRoute)
-// app.use('/api/issues')
+
 app.get('/', (req:Request, res:Response) => {
   res.send('Hello World!')
 

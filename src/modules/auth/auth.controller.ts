@@ -1,20 +1,22 @@
 import AuthServices from "./auth.service";
-import type { IReturnUser } from "./auth.interface";
+import type { IReturnUser, IUser } from "./auth.interface";
 import { sendResponse } from "../../utils/sendResponse";
 import type { Request, Response } from "express";
 import authService from "./auth.service";
 import jwt from "jsonwebtoken";
+import { error } from 'node:console';
 class AuthController {
   async signup(req: Request, res: Response) {
-    console.log("data", req.body);
-    const result = await AuthServices.createUser(req.body);
+   const payload=req.body as IUser
+      if(!payload.email||!payload.password||!payload.name||!payload.role)
+      {    
+         throw new Error(`empty  valu asigne`);
+      }
+    const result = await AuthServices.createUser(payload);
     if (result.rows.length===0) {
-      return sendResponse(res, {
-        message: "user not registered successfully ",
-        success: false,
-        status: 400,
-        error: true,
-      });
+     
+       throw new Error  ( "user not registered successfully ");
+       
     }
     return sendResponse(res, {
       message: "User registered successfully",

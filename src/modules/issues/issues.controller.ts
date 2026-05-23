@@ -9,7 +9,18 @@ class IssuesController {
   // crearteIssues
   async createIssues(req: Request, res: Response) {
     const user = req.user as JwtPayload;
-    const result = await issuesService.createIssuesDB(req.body, user.id);
+    const payload=req.body
+         if(!user?.id)
+          {
+             throw new Error('unathurized access! pleace login')
+          }
+    
+     
+        if (!payload.title||!payload.description||payload.type) {
+          throw new Error('Empty body! Please include data body');
+        }
+    
+    const result = await issuesService.createIssuesDB(payload, user.id);
 
     if (result?.rows?.length === 0) {
       sendResponse(res, {
@@ -31,22 +42,18 @@ class IssuesController {
     const query = req.query;
     console.log("query", query);
     const result = await issuesService.AllIssuesDB(query);
-    if (result.length === 0) {
-      sendResponse(res, {
-        message: "issues not found",
-        success: true,
-        status: 200,
-      });
-    }
-
+   
+ if(!result.length)
+{
+   throw new Error('Not found Issues')
+}
+            
     sendResponse(res, { success: true, status: 200, data: result });
+   
   }
 // get single Issues
   async singleIssues(req: Request, res: Response) {
-    const user = req?.user as IReporter;
-    if (!user) {
-      throw new Error("unauthorize access ");
-    }
+   
     const { id } = req.params;
 
     const result = await issuesService.singleIssuesDB(id as string);

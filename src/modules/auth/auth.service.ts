@@ -4,6 +4,7 @@ import { signToken } from '../../utils/jwt';
 import type { IReturnUser, IUser } from "./auth.interface";
 import bcrypt from "bcrypt";
 class AuthServices {
+  //  createuser
   async createUser(payload: IUser) {
     const { name, email, password, role } = payload;
     const passwordHash = await bcrypt.hash(password, 10);
@@ -20,7 +21,7 @@ class AuthServices {
     delete result.rows[0].password;
     return result
   }
-
+//  login user
   async loginUser(payload: { email: string; password: string }) {
     const { email, password } = payload;
     const userData = await pool.query(
@@ -54,11 +55,7 @@ class AuthServices {
       payloaduser as Omit<IReturnUser, "created_at|updated_at">,
     );
    
-    //payload
-    // singeTOken is jenratae function
-    // {acccesstoken,refresstoken}
-    // cookies set refershToken
-    // veryy token
+    
 
     return {token:accessToken, user,refershToken };
   }

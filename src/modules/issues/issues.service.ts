@@ -8,17 +8,7 @@ import type { IReturnUser, IUser } from '../auth/auth.interface'
   class IssuesService {
     // Create Issues
   async createIssuesDB(payload: IIssues, id:number) {
-    console.log('id',id)
-      if(!id)
-      {
-         throw new Error('unathurized access! pleace login')
-      }
-
  
-    if (!payload) {
-      throw new Error('Empty body! Please include data body');
-    }
-
     const { title, description, type } = payload;
    
 
@@ -97,6 +87,7 @@ if (reporterid.length === 0) {
     created_at: i.created_at,
     updated_at: i.updated_at
   }));
+
 
   return issues;
 }   

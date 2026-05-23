@@ -4,7 +4,7 @@ import { tokenVerifay } from '../utils/jwt';
 import { pool } from '../db';
 import type { JwtPayload } from 'jsonwebtoken';
 
-export const auth=(...roles)=>{
+export const auth=(...roles:string[])=>{
     return async(req:Request,res:Response, next:NextFunction)=>{
   const token =req.headers.authorization
   console.log(token)
