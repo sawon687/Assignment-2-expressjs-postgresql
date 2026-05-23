@@ -1,4 +1,4 @@
-const roles=['contributor','maintainer']as const
+export const roles=['contributor','maintainer']as const
 export interface IUser{
     name:string,
     email:string,
@@ -12,7 +12,7 @@ export interface IReturnUser{
     id:number,
     name:string,
     email:string
-    role:string
+    role:(typeof roles)[number]
     created_at:Date 
     updated_at:Date
   

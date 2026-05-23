@@ -27,7 +27,7 @@ export interface IReIssues{
 }
 
 export interface IssueQuery {
-  type?: string;
+  type?:"bug"| "feature_request"
   sort?: 'newest' | 'oldest';
-  status?: string;
+  status?: "open"|"in_progress"|" resolved";
 }

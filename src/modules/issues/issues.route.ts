@@ -8,7 +8,7 @@ const route=Router()
 route.post('/',auth() ,issuesController.createIssues)
 route.get('/',issuesController.getAllIssues)
 route.get('/:id',auth(),issuesController.singleIssues)
-route.delete('/:id',auth(),issuesController.deleteIssues)
-route.put('/:id',issuesController.updateIssues)
+route.delete('/:id',auth('maintainer'),issuesController.deleteIssues)
+route.put('/:id',auth('maintainer','contributor'),issuesController.updateIssues)
 
 export const issuesRoute=route
