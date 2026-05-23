@@ -1,7 +1,7 @@
 
 import type { NextFunction, Request, Response } from "express";
 
-const globalErrorHandler = (
+const globalErrorHandle = (
   err: any,
   req: Request,
   res: Response,
@@ -17,4 +17,4 @@ const globalErrorHandler = (
 
 };
 
-export default globalErrorHandler;
+export default globalErrorHandle;

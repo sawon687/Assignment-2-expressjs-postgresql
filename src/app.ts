@@ -1,9 +1,9 @@
 import express, { type Request, type Response } from 'express'
-import globalErrorHandler from './middleware/globalErrorHandle'
 import { logger } from './middleware/logger'
 import { authRoute } from './modules/auth/auth.route'
-import cors from 'cors'
 import { issuesRoute } from './modules/issues/issues.route'
+import globalErrorHandle from './middleware/globalErrorHandle'
+
 const app = express()
 app.use(express.json())
 app.use(logger)
@@ -17,7 +17,7 @@ app.get('/', (req:Request, res:Response) => {
 
 })
 
-app.use(globalErrorHandler)
+app.use(globalErrorHandle)
 
 
 export default app
