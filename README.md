@@ -5,7 +5,7 @@ A collaborative backend system for reporting bugs, suggesting features, and mana
 ---
 
 ## 🚀 Live URL
-https://your-deployed-link.com
+https://assignment-2-expresss-postgresql.vercel.app/
 
 ---
 
