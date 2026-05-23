@@ -54,7 +54,7 @@ https://assignment-2-expresss-postgresql.vercel.app/
 - POST /api/issues
 - GET /api/issues
 - GET /api/issues/:id
-- PATCH /api/issues/:id
+- PUT /api/issues/:id
 - DELETE /api/issues/:id
 
 ---
